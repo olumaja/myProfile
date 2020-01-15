@@ -26,14 +26,14 @@
                       
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                           <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
+                            <li class="nav-item">
                               <a class="nav-link" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
                               <a class="nav-link" href="aboutMe.html">About Me</a>
                             </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="contactMe.html" tabindex="-1" aria-disabled="true">Contact Me  <span class="sr-only">(current)</span></a>
+                            <li class="nav-item active">
+                              <a class="nav-link" href="contact.html" tabindex="-1" aria-disabled="true">Contact Me<span class="sr-only">(current)</span></a>
                             </li>
                           </ul>
                           
@@ -47,11 +47,13 @@
     <main>
 
       <div id="contactrow" class="row">
-        <div class="col-2"></div>
-        <div id="conacts" class="col-4">
+        <div class="col-3"></div>
+        <div id="contact" class="col-4">
           <div id="edges">
             <form novalidate>
-              <div class="form-group form-row">
+              <fieldset>
+                <legend>Contact Me</legend>
+                <div class="form-group form-row">
 
                   <label for="name" class="col-2 col-form-label"><i class="fas fa-user-circle"></i></label>
                   <input type="text" class="form-control col-9" name="name" placeholder="Enter your Name" />
@@ -63,17 +65,62 @@
                   <input type="email" class="form-control col-9" name="email" placeholder="Enter valid email address" />          
 
               </div>
+              <div class="form-group form-row">
+                <label for="phone" class="col-2 col-form-label"><i class="fas fa-phone-alt"></i></label>
+                <input type="tel" class="form-contol col-9" name="phone" id="phone" placeholder="Enter Phone Number" />
+              </div>
               <div class="form-group">
                 <label for="message"><i class="fas fa-edit"></i> Message:</label>
                 <textarea id="message" class="form-control" placeholder="Enter Message"></textarea>
               </div>
+              <div class="form-group row">
+
+                <div class="col-sm-4"></div>
+                <div class="col-sm-5">
+                  <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                </div>
+                <div class="col-sm-3"></div>
+
+              </div>
+              </fieldset>
             </form>
           </div>
         </div>
         <div class="col-4">
-
+          <div id="address">
+            
+          <ul>
+            <li>
+              <ul class="inner">
+                <li><i class="fas fa-map-marker-alt"></i></li>
+                <li>
+                  <h5>Head Office</h5>
+                  <span>14 Omojuwa Street, Kosofe Lagos</span>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <ul class="inner">
+                <li><i class="far fa-envelope"></i></li>
+                <li>
+                  <h5>Email</h5>
+                  <span>olumajasegun@gmail.com</span>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <ul class="inner">
+                <li><span class="con"><i class="fas fa-phone-alt"></i></span></li>
+                <li>
+                  <h5>Telephone</h5>
+                  <span>+234 8173217483</span>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          </div>
         </div>
-        <div class="col-2"></div>
+        <div class="col-1"></div>
       </div>
     </main>
 

@@ -3,10 +3,33 @@ body{background-color: aliceblue;}
 #barNav.bg-light{background-color: #141e3b !important;}
 #barNav ul li a{color: #d8d7d7 !important; font-size: 1.05rem;}
 #barNav ul li a:hover{color: #ffffff !important;}
+
 .navbar-light .navbar-brand{color: #f5f5f5 !important; font-size: 1.5rem;}
 
-#contactrow{margin: 1.25em 0;}
-#contact{background-image: url(../images/codeimg2.jpg); color: #f5f5f5; width: 100%; padding-left:5em; }
+#contactrow{margin: 1.25em 0; padding-top: 60px; padding-bottom: 50px;}
+/* #contact{background-image: url(../images/codeimg2.jpg); color: #f5f5f5; width: 100%; padding-left:5em; } 
+#contact{background-color: black;}*/
+#edges fieldset{ width: 100%; height:29.8em; margin: auto; padding-top: 50px;
+    border: thin solid #141e3b; border-radius: 0.3125em; padding-left: 10px; padding-right: 10px;
+}
+
+#edges fieldset legend{border: none; display: block; width: auto;}
+
+.form-row .col-2{padding-left: 0px !important; padding-right: 0px !important;}
+.form-row .col-9{padding-left: 0px !important; padding-right: 0px !important;}
+.form-row label{text-align: center; font-size: 1.5625em;}
+.form-group i{ color: #141e3b;}
+.form-group input{border: grey thin solid; border-radius: 5px; color: rgba(6, 4, 5, .9);}
+.form-group input:focus{background-color: rgba(20, 30, 59, 0.8); color: #f5f5f5;}
+.form-group textarea{color: rgba(6, 4, 5, .9); height: 100px;}
+.form-group textarea:focus{background-color: rgba(20, 30, 59, 0.8); color: #f5f5f5;}
+.col-form-label{padding-top: 0px;}
+
+#address ul{list-style: none; padding-top: 10px;}
+
+.inner li {display: inline-block; margin-bottom: 20px; padding-left: 25px;}
+.inner li i{font-size: 25px; color: #141e3b;}
+
 
 #foot{
     height: 100px; background-color: rgba(6, 4, 5, .9); color: #f5f5f5; text-align: center; 
