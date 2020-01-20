@@ -6,11 +6,11 @@ body{background-color: aliceblue;}
 
 .navbar-light .navbar-brand{color: #f5f5f5 !important; font-size: 1.5rem;}
 
-#contactrow{margin: 1.25em 0; padding-top: 60px; padding-bottom: 50px;}
+#contactrow{margin: 1.25em 0; padding-top: 1.875em; padding-bottom: 1.8125em;}
 /* #contact{background-image: url(../images/codeimg2.jpg); color: #f5f5f5; width: 100%; padding-left:5em; } 
 #contact{background-color: black;}*/
-#edges fieldset{ width: 100%; height:29.8em; margin: auto; padding-top: 50px;
-    border: thin solid #141e3b; border-radius: 0.3125em; padding-left: 10px; padding-right: 10px;
+#edges fieldset{ width: 100%; height:33.0em; margin: auto; padding-top: 1.875em;
+    border: thin solid #141e3b; border-radius: 0.3125em; padding-left: 0.625em; padding-right: 0.625em;
 }
 
 #edges fieldset legend{border: none; display: block; width: auto;}
@@ -19,21 +19,25 @@ body{background-color: aliceblue;}
 .form-row .col-9{padding-left: 0px !important; padding-right: 0px !important;}
 .form-row label{text-align: center; font-size: 1.5625em;}
 .form-group i{ color: #141e3b;}
-.form-group input{border: grey thin solid; border-radius: 5px; color: rgba(6, 4, 5, .9);}
+.form-group input{border: grey thin solid; border-radius: 0.3125em; color: rgba(6, 4, 5, .9);}
 .form-group input:focus{background-color: rgba(20, 30, 59, 0.8); color: #f5f5f5;}
-.form-group textarea{color: rgba(6, 4, 5, .9); height: 100px;}
+.form-group textarea{color: rgba(6, 4, 5, .9); height: 6.25em;}
 .form-group textarea:focus{background-color: rgba(20, 30, 59, 0.8); color: #f5f5f5;}
 .col-form-label{padding-top: 0px;}
+.form-row{ position: relative; padding-top: 1.25em;}
+.form-row .invalid-tooltip{top: -15%; }
+#msg{ position: relative;}
+#msg .invalid-tooltip{top: -1%;}
 
-#address ul{list-style: none; padding-top: 10px;}
+#address ul{list-style: none; padding-top: 0.625em;}
 
-.inner li {display: inline-block; margin-bottom: 20px; padding-left: 25px;}
-.inner li i{font-size: 25px; color: #141e3b;}
+.inner li {display: inline-block; margin-bottom: 1.25em; padding-left: 1.5625em;}
+.inner li i{font-size: 1.5625em; color: #141e3b;}
 
 
 #foot{
-    height: 100px; background-color: rgba(6, 4, 5, .9); color: #f5f5f5; text-align: center; 
-    width: 100%; padding-top: 30px;
+    height: 6.25em; background-color: rgba(6, 4, 5, .9); color: #f5f5f5; text-align: center; 
+    width: 100%; padding-top: 1.875em;
 }
 #foot .row{margin: 0px;}
 
@@ -43,4 +47,4 @@ body{background-color: aliceblue;}
 
 #socialMedia{font-size: 2rem;list-style:none;}
 
-#socialMedia li{ display: inline; padding-left: 30px;}
+#socialMedia li{ display: inline; padding-left: 1.875em;}

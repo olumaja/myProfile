@@ -50,28 +50,38 @@
         <div class="col-3"></div>
         <div id="contact" class="col-4">
           <div id="edges">
-            <form novalidate>
+            <form class="needs-validation" novalidate>
               <fieldset>
                 <legend>Contact Me</legend>
                 <div class="form-group form-row">
 
                   <label for="name" class="col-2 col-form-label"><i class="fas fa-user-circle"></i></label>
-                  <input type="text" class="form-control col-9" name="name" placeholder="Enter your Name" />
-
+                  <input type="text" class="form-control col-9" id="name" placeholder="Enter your Name" required />
+                  <div class="invalid-tooltip">
+                    Please enter name
+                  </div>
               </div>
               <div class="form-group form-row">
                 
                   <label for="email" class="col-2 col-form-label"><i class="fas fa-envelope"></i></label>                            
-                  <input type="email" class="form-control col-9" name="email" placeholder="Enter valid email address" />          
-
+                  <input type="email" class="form-control col-9" id="email" placeholder="Enter valid email address" required />          
+                  <div class="invalid-tooltip">
+                    Please enter a valid email
+                  </div>
               </div>
               <div class="form-group form-row">
                 <label for="phone" class="col-2 col-form-label"><i class="fas fa-phone-alt"></i></label>
-                <input type="tel" class="form-contol col-9" name="phone" id="phone" placeholder="Enter Phone Number" />
+                <input type="tel" class="form-control col-9" id="phone" placeholder="Enter Phone Number" required />
+                <div class="invalid-tooltip">
+                  Please enter phone number
+                </div>
               </div>
-              <div class="form-group">
+              <div id="msg" class="form-group">
                 <label for="message"><i class="fas fa-edit"></i> Message:</label>
-                <textarea id="message" class="form-control" placeholder="Enter Message"></textarea>
+                <textarea id="message" class="form-control" placeholder="Enter Message" required></textarea>
+                <div class="invalid-tooltip">
+                  Please enter message
+                </div>
               </div>
               <div class="form-group row">
 
@@ -149,6 +159,7 @@
           <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
           <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+          <script src="js/bootTest.js"></script>
       
           </body> 
           </html>
