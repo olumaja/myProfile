@@ -21,7 +21,7 @@ body{background-color: aliceblue;}
 .form-group i{ color: #141e3b;}
 .form-group input{border: grey thin solid; border-radius: 0.3125em; color: rgba(6, 4, 5, .9);}
 .form-group input:focus{background-color: rgba(20, 30, 59, 0.8); color: #f5f5f5;}
-.form-group textarea{color: rgba(6, 4, 5, .9); height: 6.25em;}
+.form-group textarea{color: rgba(6, 4, 5, .9); height: 6.25em; border: grey thin solid;}
 .form-group textarea:focus{background-color: rgba(20, 30, 59, 0.8); color: #f5f5f5;}
 .col-form-label{padding-top: 0px;}
 .form-row{ position: relative; padding-top: 1.25em;}
@@ -33,6 +33,7 @@ body{background-color: aliceblue;}
 
 .inner li {display: inline-block; margin-bottom: 1.25em; padding-left: 1.5625em;}
 .inner li i{font-size: 1.5625em; color: #141e3b;}
+
 
 
 #foot{
